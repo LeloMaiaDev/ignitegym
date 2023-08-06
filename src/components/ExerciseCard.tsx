@@ -12,18 +12,18 @@ export function ExerciseCard({...rest}: Props){
         <TouchableOpacity {...rest}>
             <HStack bg='gray.500' alignItems='center' p={2} pr={4} rounded='md' mb={3}>
                 <Image
-                    source={{uri: 'https://conteudo.imguol.com.br/c/entretenimento/0c/2019/12/03/remada-unilateral-com-halteres-1575402100538_v2_600x600.jpg'}}
+                    source={{uri: 'https://blogeducacaofisica.com.br/wp-content/uploads/2017/07/membros-superiores.jpg'}}
                     alt='Imagem do exercício'
                     w={16}
                     h={16}
                     rounded='md'
                     mr={4}
-                    resizeMode='center'
+                    resizeMode='cover'
                 />
 
                 <VStack flex={1}>
                     <Heading fontSize='lg' color='white'>
-                        Remada unilateral
+                        Puxada Frontal
                     </Heading>
 
                     <Text fontSize='sm' color='gray.200' mt={1} numberOfLines={2}>
